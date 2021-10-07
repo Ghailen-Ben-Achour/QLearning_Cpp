@@ -59,3 +59,29 @@ void QLearning::QtableLogic(int nn, int depth, int breadth){
     }
 
 }
+
+void QLearning::Show() const{
+    if(_init){
+        std::cout << "qtable populated with: "<< std::endl;
+        for(auto iter = this->_q_table.begin(); 
+        iter!= this->_q_table.end(); ++iter){
+            std::cout <<"qtable[{";
+            for( size_t i=0; i< iter->first.size(); i++){
+                std::cout << iter->first[i];
+                if(i!= iter->first.size()-1)
+                std::cout << ",";
+            }
+            std::cout << "}] =[";
+            for( size_t i=0; i< iter->second.size(); i++){
+                std::cout << iter->second[i];
+                if (i!= iter->second.size()-1)
+                std::cout << ",";
+                std::cout << "]; " << std::endl;
+            }
+        }
+    }
+    else{
+        std::cerr << "Qtable not initialized" << std::endl;
+    }
+}
+
