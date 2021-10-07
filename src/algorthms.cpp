@@ -85,3 +85,8 @@ void QLearning::Show() const{
     }
 }
 
+float QLearning::GetEpsilon() const{
+    return _EPSILON;
+}
+
+
