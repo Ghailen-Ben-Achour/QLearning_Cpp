@@ -38,3 +38,24 @@ int nn, int depth){
     return index;
 }
 
+void QLearning::QtableLogic(int nn, int depth, int breadth){
+
+    if (nn == 0){
+        std::cerr << "size can not be 0" << std::endl;
+    }
+    float size = nn/2;
+    int max_index = pow(nn, depth);
+    for (int i=0; i < max_index; i++){
+        std::vector<int> key = IndexFromMulti(i, nn, depth);
+        for( int j=0; j <depth; j++){
+        key[j] -= size;
+        std::vector<float> value(breadth, 0);
+        for( int j=0; j <breadth; j++){
+            value[j] = (rand()%5)+1;
+            this->_q_table[key] = value;
+            }
+        }
+
+    }
+
+}
