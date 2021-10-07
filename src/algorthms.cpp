@@ -27,3 +27,14 @@ _stateSize(s), _range(r), _actionSize(a+1)
 
 }
 
+std::vector<int> QLearning::IndexFromMulti(int one_dimensional_index, 
+int nn, int depth){
+
+    std::vector<int> index(depth, 0);
+    for (int i=0; i<depth; i++){
+        index[i]= (one_dimensional_index % nn);
+        one_dimensional_index /= nn;
+    }
+    return index;
+}
+
