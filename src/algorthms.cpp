@@ -89,4 +89,9 @@ float QLearning::GetEpsilon() const{
     return _EPSILON;
 }
 
+void QLearning::SetEpsilon(float e){
+    this->_EPSILON =e;
+    std::cout << "EPSILON set to " << this->_EPSILON << std::endl;
+}
+
 
