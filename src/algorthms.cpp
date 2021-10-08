@@ -94,4 +94,7 @@ void QLearning::SetEpsilon(float e){
     std::cout << "EPSILON set to " << this->_EPSILON << std::endl;
 }
 
+double QLearning::_DISCOUNT = 0.9;
+float QLearning::_EPS_DECAY = 0.99;
+double QLearning::_LEARNING_RATE = 0.01;
 
