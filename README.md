@@ -1,2 +1,2 @@
 # QLearning_Cpp
-QLearning algorithm on C++
+In this work, we are focusing on the basics of reinforcement learning.
