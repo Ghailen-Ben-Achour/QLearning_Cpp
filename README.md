@@ -9,4 +9,5 @@ To learn each value of the Q-table, we use the **Q-Learning algorithm**.
 
 ----
 ## Q-function
+![Image](https://github.com/Ghailen-Ben-Achour/QLearning_Cpp/blob/main/images/equation.png)
 
