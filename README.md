@@ -9,6 +9,6 @@ To learn each value of the Q-table, we use the **Q-Learning algorithm**.
 
 ----
 ## Q-function
-
-![Image](https://github.com/Ghailen-Ben-Achour/QLearning_Cpp/blob/main/images/equation.png?style=centerme)
-
+<p align="center" width="100%">
+    <img width="33%" src="https://github.com/Ghailen-Ben-Achour/QLearning_Cpp/blob/main/images/equation.png">
+</p>
