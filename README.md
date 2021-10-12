@@ -7,3 +7,6 @@ Q-Table is a way for a lookup where we calculate the maximum expected future rew
 
 To learn each value of the Q-table, we use the **Q-Learning algorithm**.
 
+----
+## Q-function
+
