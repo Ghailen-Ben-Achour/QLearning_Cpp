@@ -12,3 +12,5 @@ To learn each value of the Q-table, we use the **Q-Learning algorithm**.
 <p align="center" width="100%">
     <img width="80%" src="https://github.com/Ghailen-Ben-Achour/QLearning_Cpp/blob/main/images/equation.png">
 </p>
+
+There is an iterative process of updating the values.
