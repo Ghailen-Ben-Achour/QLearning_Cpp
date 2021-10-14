@@ -14,3 +14,6 @@ To learn each value of the Q-table, we use the **Q-Learning algorithm**.
 </p>
 
 There is an iterative process of updating the values. As we start to explore the environment, the Q-function gives us better and better approximations by continuously updating the Q-values in the table.
+
+----
+## Usage
