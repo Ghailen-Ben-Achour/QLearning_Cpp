@@ -17,3 +17,4 @@ There is an iterative process of updating the values. As we start to explore the
 
 ----
 ## Usage
+In this work, we share a simple way to work with Q tables
