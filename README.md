@@ -22,5 +22,5 @@ In this work, we share a simple way to work with Q tables on C++. To try working
 mkdir build && cd build
 cmake ..
 make
-
+./main
 ```
