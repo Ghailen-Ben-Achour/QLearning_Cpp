@@ -24,3 +24,4 @@ cmake ..
 make
 ./main
 ```
+The commands above should
