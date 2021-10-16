@@ -24,4 +24,4 @@ cmake ..
 make
 ./main
 ```
-The commands above should
+The commands above should show the generated Q Table. 
