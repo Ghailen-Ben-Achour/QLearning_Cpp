@@ -24,4 +24,4 @@ cmake ..
 make
 ./main
 ```
-The commands above should show the generated Q Table. The size of the table can be modified in the ```main.cpp``` file.
+The commands above should show the generated Q Table. The size of the table can be modified in the ```main.cpp``` file inside ```src``` folder.
